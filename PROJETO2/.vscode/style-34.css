@@ -1,0 +1,19 @@
+body{
+  background: url(./assets/assets/bg-mobile.jpg) no-repeat top center/cover
+}
+#container {
+  width: 360px;
+  border: 1px solid red;
+  margin: auto;
+/*  margin-right: auto;
+  margin-left: auto; */
+}
+
+#profile img {
+  width: 112px;
+  display: block;
+  margin: auto;
+}
+
+/*alinhar o elemento: transformar a img em display: block; e depois usar margin: auto; ou transformar o elemento pai (nesse caso #profile) em text-align: center; ATENÇÃO!!!!! NÃO É POSSÍVEL FAZER OS DOIS AO MESMO TEMPO, OU É A OPÇÃO 1 OU OPÇÃO 2. */
+
